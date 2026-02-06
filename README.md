@@ -978,7 +978,7 @@ PascalCase
 | Asset Type | Prefix | Suffix | Notes |
 | --- | --- | --- | --- |
 | Mesh |  | \_mesh\_lod0\* | Суффикс LOD следует использовать только в том случае, если модель использует уровни детализации (LOD). |
-| Mesh Collider |  | \_коллайдер |  |
+| Mesh Collider |  | \_collider |  |
 
 
 <a name="anc-animations"></a>
