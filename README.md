@@ -885,21 +885,21 @@ public WeaponType Weapon
 
 | Asset Type | Asset Name |
 | --- | --- |
-| Skeletal Mesh | SK\_Bob |
-| Material | М\_Боб |
-| Texture (Diffuse/Albedo) | Т\_Боб\_Д |
-| Texture (Normal) | Т\_Боб\_Н |
-| Texture (Evil Diffuse) | T\_Bob\_Evil\_D |
+| Skeletal Mesh | SK_Bob |
+| Material | М_Bob |
+| Texture (Diffuse/Albedo) | Т_Bobs_D |
+| Texture (Normal) | Т_Bob_N |
+| Texture (Evil Diffuse) | T_Bob_Evil_D |
 
 ##### Пропеллер
 
 | Asset Type | Asset Name |
 | --- | --- |
-| Static Mesh (01) | SM\_Rock\_01 |
-| Static Mesh (02) | SM\_Rock\_02 |
-| Static Mesh (03) | SM\_Rock\_03 |
-| Material | М\_Рок |
-| Material Instance (Snow) | MI\_Rock\_Snow |
+| Static Mesh (01) | SM_Rock_01 |
+| Static Mesh (02) | SM_Rock_02 |
+| Static Mesh (03) | SM_Rock_03 |
+| Material | М_Rock |
+| Material Instance (Snow) | MI_Rock_Snow |
 
 <a name="asset-name-modifiers"></a>
 ### 4.2 Модификаторы названия ассета
@@ -936,40 +936,39 @@ public WeaponType Weapon
 | Asset Type | Prefix | Suffix | Notes |
 | --- | --- | --- | --- |
 | Уровень / Сцена | \* |  | Должно находиться в папке с названием Levels. Например, Levels/A4\_C17\_Parking\_Garage.unity |
-| Level (Persistent) |  | \_P |  |
-| Уровень (аудио) |  | \_Аудио |  |
-| Level (Lighting) |  | Освещение |  |
-| Level (Geometry) |  | \_Гео |  |
-| Level (Gameplay) |  | \_Игровой процесс |  |
+| Level (Persistent) |  | _P |  |
+| Уровень (аудио) |  | _Audio |  |
+| Level (Lighting) |  | _Lighting |  |
+| Level (Geometry) |  | _Geo  |  |
+| Level (Gameplay) |  | _Gameplay   |  |
 | Prefab |  |  |  |
-| Probe (Reflection) | RP\_ |  |  |
-| Probe (Light) | LP\_ |  |  |
-| Volume | V\_ |  |  |
-| Trigger Area |  | \_Курок |  |
-| Material | M\_ |  |  |
-| Static Mesh | SM\_ |  |  |
-| Skeletal Mesh | SK\_ |  |  |
-| Texture | T\_ | \_? | См. текстуры |
-| Visual Effects | VFX\_ |  |  |
-| Particle System | PS\_ |  |  |
-| Light | L\_ |  |  |
-| Camera (Cinemachine) | CM\_ |  | Виртуальная камера |
+| Probe (Reflection) | RP_ |  |  |
+| Probe (Light) | LP_ |  |  |
+| Volume | V_ |  |  |
+| Trigger Area |  | _Trigger |  |
+| Material | M_ |  |  |
+| Static Mesh | SM_ |  |  |
+| Skeletal Mesh | SK_ |  |  |
+| Texture | T_ | _? | См. текстуры |
+| Visual Effects | VFX_ |  |  |
+| Particle System | PS_ |  |  |
+| Light | L_ |  |  |
+| Camera (Cinemachine) | CM_ |  | Виртуальная камера |
 
 <a name="anc-models"></a>
-
 #### 4.2.1a 3D-модели (файлы FBX)
 
 PascalCase
 
 | Asset Type | Prefix | Suffix | Notes |
 | --- | --- | --- | --- |
-| Characters | CH\_ |  |  |
-| Vehicles | VH\_ |  |  |
-| Weapons | WP\_ |  |  |
-| Static Mesh | SM\_ |  |  |
-| Skeletal Mesh | SK\_ |  |  |
-| Skeleton | SKEL\_ |  |  |
-| Rig | RIG\_ |  |  |
+| Characters | CH_ |  |  |
+| Vehicles | VH_ |  |  |
+| Weapons | WP_ |  |  |
+| Static Mesh | SM_ |  |  |
+| Skeletal Mesh | SK_ |  |  |
+| Skeleton | SKEL_ |  |  |
+| Rig | RIG_ |  |  |
 
 #### 4.2.1b 3D-модели (3ds Max)
 
@@ -1011,7 +1010,7 @@ PascalCase
 | Asset Type | Prefix | Suffix | Notes |
 | --- | --- | --- | --- |
 | Prefab |  |  |  |
-| Prefab Instance | I |  |  |
+| Prefab Instance | I_ |  |  |
 | Scriptable Object |  |  | В редакторе присвоена метка "Blueprint". |
 
 <a name="anc-materials"></a>
